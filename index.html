@@ -9,14 +9,33 @@
     <header>
       <a href="mailto:248138@portlandschools.org">Contact</a>
       <nav>
-        <a id="sectionA" href="pages/news.html">News Report</a>
         <a href="pages/movies.html">Favorite Movies</a>
+        <a id="sectionA" href="pages/news.html">News Report</a>
+        <a href="pages/schedule.html">School Schedule</a>
+        <a href="pages/signup.html">Sign Up</a>
       </nav>
     </header>
     
     <main>
       <hr />
+      <!-- Forms -->
+      <form action="" method="post">
+        <div>
+          <label for="firstName">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Name">
+        </div>
+        
+        <!-- Email Box -->
+        <div>
+          <label for="userEmail">Email Adress:</label>
+          <input type="email" name="userEmail" id="userEmail" placeholder="Email" required>
+        </div>
+        
+        <!-- Button -->
+         <button type="submit">Send Message</button>
+      </form>
 
+      <hr />
       <section>
         <h1>Aliens Land in the School Parking Lot</h1>
         <p>This monring at roughly 9:00 AM, a UFO landed in the PHS parking lot, causing chaos accross the school</p>
@@ -69,7 +88,45 @@
       </section>
 
       <hr />
-      
+      <!-- Tables -->
+
+      <section>
+        <p>Blue Day</p>
+        <table border="1">
+          <tr>
+            <th>Period</th>
+            <th>Subject</th>
+            <th>Room #</th>
+            <th>Teacher</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Honors Early US History</td>
+            <td>213</td>
+            <td>Mr. Martinez</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>AMP 2</td>
+            <td>208</td>
+            <td>Ms. Smith</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Study Hall</td>
+            <td>Lecture Hall</td>
+            <td>Mr. Rutherford</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Honors Web Development</td>
+            <td>232</td>
+            <td>Mr. Girsch</td>
+          </tr>
+        </table>
+      </section>
+
+      <hr />
     </main>
   
     <footer>
