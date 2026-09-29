@@ -1,16 +1,16 @@
-let billAmount = prompt('Bill Amount:')
-billAmount = number(billAmount)
+// let billAmount = prompt('Bill Amount:')
+// billAmount = billAmount
 
-let tipPercentage = prompt('Tip Percentage')
-tipPercentage = number(tipPercentage)
-tipPercentage *=.01
-tipPercentage = tipPercentage*billAmount
+// let tipPercentage = prompt('Tip Percentage')
+// tipPercentage = tipPercentage
+// tipPercentage *=.01
+// tipPercentage = tipPercentage*billAmount
 
-let totalPrice = billAmount+tipPercentage
+// let totalPrice = Number(billAmount)+Number(tipPercentage)
 
-let priceMessage = `-- Bill Amount --
-Before tip: ${billAmount}
-Tip: ${tipPercentage}
-Total: ${totalPrice}
-`
-console.log(priceMessage)
+// let priceMessage = `-- Bill Amount --
+// Before tip: $${billAmount}
+// Tip: $${tipPercentage}
+// Total: $${totalPrice}
+// `
+// console.log(priceMessage)
