@@ -12,5 +12,65 @@
         <a href="news.html">News Report</a>
         <a href="schedule.html">School Schedule</a>
     </header>
+
+    <form action="" method="post">
+        <div>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" placeholder="First Name">
+          
+        </div>
+        <div>
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+        </div>
+        <div>
+          <label for="userEmail">Email Adress:</label>
+          <input type="email" name="userEmail" id="userEmail" placeholder="Email" required>
+        </div>
+        <div>
+          <button type="submit">Sign Me Up!</button>
+        </div>
+      </form>
+      <form action="POST">
+        
+        <div>
+          <p>How do you get to School?</p>
+          <input type="Radio" id="walk" name="transportation" value="walk">
+          <label for="walk">Walk</label>
+          <input type="Radio" id="bus" name="transportation" value="bus">
+          <label for="bus">Bus</label>
+          <input type="Radio" id="car" name="transportation" value="car">
+          <label for="car">Car</label>
+        </div>
+
+        <!-- Checkboxds -->
+        <div>
+          <p>Select your skills</p>
+          <input type="checkbox" name="hobbies" id="Gaming" value="Gaming">
+          <label for="Gaming">Gaming</label>
+          <input type="checkbox" name="hobbies" id="Sports" value="Sports" >
+          <label for="Sports">Sports</label>
+          <input type="checkbox" name="hobbies" id="Music" value="Music" >
+          <label for="Music">Music</label>
+          <input type="checkbox" name="hobbies" id="Coding" value="Coding" >
+          <label for="Coding">Coding</label>
+        </div>
+
+         <!-- Text Area -->
+        <div>
+          <label for="message">Additional Comments</label>
+          <textarea name="message" id="message" value="message" rows="1"></textarea>
+        </div>
+
+        <!-- Dropdown Menus -->
+        <div>
+          <label for="grade">Grade Level</label>
+          <select name="grade" id="grade">
+            <option value="grade9">Grade 9</option>
+            <option value="grade10">Grade 10</option>
+            <option value="grade11">Grade 11</option>
+            <option value="grade12">Grade 12</option>
+          </select>
+        </div>
 </body>
 </html>
