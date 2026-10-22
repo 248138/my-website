@@ -1,12 +1,22 @@
-p {
-    background-color: grey;
-    color: #709;
+
+
+/* CSS Activity 3 */
+
+.box-1 {
+    background-color: #ff7575;
+    padding: 40px;
 }
 
-.header-link {
-    text-decoration: underline;
-}
+.box-2 {
+    background-color: #ff7575;
+    margin: 50px;
+    /* 50px to edge */ 
+    /* 50px to top of 3. */
+    /* Background color in 1 expanded because it used padding to create distance, while 2 used margin */
+} 
 
-a {
-    text-decoration: none;
+.box-3 {
+    background-color: #ff7575;
+    padding: 10px;
+    margin-top: 100px;
 }
