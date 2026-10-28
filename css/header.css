@@ -25,4 +25,10 @@
 
 header {
     margin-bottom: 20px;
+    background-color: #bceef8;
+    padding: 1em;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 5px;
 }
