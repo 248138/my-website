@@ -20,3 +20,38 @@
     padding: 10px;
     margin-top: 100px;
 }
+
+p {
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.phs-img {
+    width: 30%;
+    min-width: 160px;
+}
+
+.hero-section {
+    background-image: url(images/Portland_High_School.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2em;
+    border-radius: 15px;
+}
+
+.hero-info {
+    width: 40%;
+    background-color: rgba(153, 218, 255, 0.631);
+    /* opacity: .8; */
+    padding: .5em;
+    border-radius: 4px;
+}
+
+.hero-txt, .hero-form, .hero-info h2 {
+    color: #000;
+}
+
+.hero-form {
+    text-decoration: underline;
+}
+

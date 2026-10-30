@@ -1,3 +1,22 @@
 body {
     background-color: lightgray;
 }
+
+.hero-section {
+    background-image: url(recipe-images/three-cheese-meatless-lasagna-11-720x720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    margin-left: 20%;
+    padding: 5%;
+    border-radius: 15px;
+}
+.hero-info {
+    background-color: #ffffffb5;
+    padding: .5em;
+    border-radius: 10px;
+}
+
+.lasagna-sect {
+    
+}
