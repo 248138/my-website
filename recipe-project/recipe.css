@@ -23,6 +23,7 @@ body {
     width: 13em;
     padding-left: .5em;
     box-shadow: 10px 5px 5px black;
+    margin-left: 3em;
 }
 
 .lasagna-link {
@@ -39,6 +40,7 @@ body {
     width: 13em;
     padding-left: .5em;
     box-shadow: 10px 5px 5px black;
+    margin-left: 3em;
 }
 
 .pizza-link {
@@ -55,6 +57,7 @@ body {
     width: 13em;
     padding-left: .5em;
     box-shadow: 10px 5px 5px black;
+    margin-left: 3em;
 }
 
 .tiramisu-link {

@@ -1,0 +1,9 @@
+Icons
+1. search for whats needed
+2. go to free
+
+
+
+position: absolute; to place icon wherever in box
+position: fixed; to place icon wherever on window
+top/bottom/left/right: % maybe px;
