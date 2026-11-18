@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #bceef8;
+    border-radius: 5px;
+}
+
+.footer_box {
+    width: 15em;
+}
+
+.footer_links {
+    display: flex;
+    align-items: center;
+}
+
+.footer_link {
+    background-color: #cf5252;
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    border-radius: 50px
+}

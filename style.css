@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 p {
     font-family: sans-serif;
