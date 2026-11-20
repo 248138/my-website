@@ -1,0 +1,13 @@
+.main_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    background-color: #cf5252;
+    text-decoration: none;
+    color: black;
+    padding: .5em;
+    margin: 1;
+    border-radius: 50px;
+}

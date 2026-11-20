@@ -1,0 +1,20 @@
+.article {
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    padding: .25em;
+    margin: .5em;
+    display: flex;
+}
+
+img {
+    border-radius: 10px;
+    margin-right: .6em;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+}
